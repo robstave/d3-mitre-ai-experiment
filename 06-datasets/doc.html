@@ -1,0 +1,47 @@
+
+ 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>MITRE ATT&CK Tactics Radar Chart</title>
+     <script src="https://d3js.org/d3.v7.min.js"></script>
+      <style>
+     
+       body { font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 20px; }
+         #chart-container { max-width: 800px; margin: 0 auto; }
+         #chart { width: 100%; height: 600px; background-color: white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+         .tooltip {
+             position: absolute;
+             background-color: rgba(0, 0, 0, 0.8);
+             color: white;
+             border: 1px solid #ddd;
+             padding: 10px;
+             border-radius: 5px;
+             pointer-events: none;
+             font-size: 12px;
+             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+         }
+         .legend { margin-top: 20px; font-size: 14px; }
+         .legend-item { display: inline-block; margin-right: 20px; }
+         .legend-color { display: inline-block; width: 20px; height: 20px; margin-right: 5px; vertical-align: middle; }
+         #timeframe-selector { margin-bottom: 20px; }
+     
+     </style>
+ </head>
+ <body>
+     <div id="chart-container">
+         <h1>MITRE ATT&CK Tactics Radar Chart</h1>
+         <p>This chart displays the cumulative prevalence of different tactics in cybersecurity attacks over time.</p>
+         <div id="timeframe-selector">
+             <button onclick="updateChart('24h')">24 Hours</button>
+             <button onclick="updateChart('1w')">1 Week</button>
+             <button onclick="updateChart('1m')">1 Month</button>
+         </div>
+         <div id="chart"></div>
+         <div class="legend" id="legend"></div>
+     </div>
+      
+ </body>
+ </html>
