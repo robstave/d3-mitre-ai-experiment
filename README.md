@@ -102,7 +102,8 @@ Gimme a toggle and bar chart
 
 [Bar](09-combo/title.md)
 
-![result](09-combo/radar09.PNG)
+![result](09-combo/radar09a.PNG)
+![result](09-combo/radar09b.PNG)
 
 
 Transitions are broke again
