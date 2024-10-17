@@ -27,19 +27,19 @@ Well...lets plod on. I think I will start fresh with a small set of requirements
 
 So I did a little research to get the tactics for Mitre. Mostly to get the 11 or so tactics to start with. This was a basic create a radar graph prompt.
 
-[First Prompt](00-first-graph/first-graph.md)
+[First Prompt](00-first-graph/readme.md)
 
 ![result](00-first-graph/radar00.PNG)
 
 Ok...decent start. Looks wonky. Lets fix the obvious labels.
 
-[Fix the labels](01-fix-labels/fix-labels.md)
+[Fix the labels](01-fix-labels/readme.md)
 
 ![result](01-fix-labels/radar01.PNG)
 
 Divider lines are a bit much
 
-[Fix the missing line](02-fix-lines/lines.md)
+[Fix the missing line](02-fix-lines/readme.md)
 
 ![result](02-fix-lines/radar02.PNG)
 
@@ -47,7 +47,7 @@ Divider lines are a bit much
 
 Manual asks for improvements
 
-[Better labels and Tooltips](03-tooltips/tooltips.md)
+[Better labels and Tooltips](03-tooltips/readme.md)
 
 ![result](03-tooltips/radar03.PNG)
 
