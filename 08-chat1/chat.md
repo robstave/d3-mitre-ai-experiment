@@ -1,10 +1,13 @@
 # Fix in Chat
 
-Moved to ChatGPT o1-preview
+Moved to ChatGPT o1-preview.  Im paying for this...so why not.
+Preview might have been overkill
 
 
-https://jsfiddle.net/624ocLhy/8/
+code: https://jsfiddle.net/624ocLhy/8/
 
+
+## Prompt
 
 its looking good but a few things
 
@@ -16,7 +19,7 @@ The color scale goes from yellow to dark red.  low numbers are hard to see.  Let
 
 also, scale the colors to the range.  In this case...all values in 24 were relatively low so they were all yellow.  normalize appropriately.
 
-# Result
+## Result
 
 ![Result](radar08.PNG)
 

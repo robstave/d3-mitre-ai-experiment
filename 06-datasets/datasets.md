@@ -1,8 +1,8 @@
 # Datasets - Claude 3.5 ( Sonnet )
 
-So we have this
-https://jsfiddle.net/624ocLhy/6/
+code: https://jsfiddle.net/624ocLhy/6/
 
+## Prompt
 
 Lets go with the multiple datasets
 I would like 3 datasets.
@@ -18,7 +18,7 @@ make the data a bit sparse though.  Leave like 4 tactics with 0 for the whole mo
 
 animation for transitions should be nice too
 
-# Result
+## Result
 
 ![Result](radar06.PNG)
 

@@ -5,9 +5,10 @@ At this point, I ran outta free AI points.  :(
 Well..it said it was too big.  Maybe I blew the context window.
 I started as new conversation.  Which gave me one more prompt to use for the day.
 
-https://jsfiddle.net/624ocLhy/7/
+code: https://jsfiddle.net/624ocLhy/7/
 
 ## Prompt
+
 can you make this not do 0->1 but integers.
 I would say for 24 hours the max is 3 and for a month its like 80 or 90.
 
