@@ -61,7 +61,7 @@ Lets make better divider lines
 
 A very simple ask to improve without anything in mind
 
-[Make Better](05-mo-betta/better.md)
+[Make Better](05-mo-betta/readme.md)
 
 ![result](05-mo-betta/radar05.PNG)
 
@@ -69,7 +69,7 @@ A very simple ask to improve without anything in mind
 
 Lets add data. 24 hours, 1 week, 1 month
 
-[3 datasets](06-datasets/datasets.md)
+[3 datasets](06-datasets/readme.md)
 
 ![result](06-datasets/radar06.PNG)
 
@@ -77,7 +77,7 @@ Normalize the data a bit
 
 Lets add data. 24 hours, 1 week, 1 month
 
-[Normalize](07-normalize/normalize.md)
+[Normalize](07-normalize/readme.md)
 
 ![result](07-normalize/radar07.PNG)
 
@@ -92,7 +92,7 @@ Its kinda like a regular ChatGPT thing where you ask for one little change and i
 Im told canvas might do this better, but really....what I should be doing is looking at the code more.
 Im just looking at the working graph and saying..."wow, works! Next!"
 
-[Fix things](08-chat1/chat.md)
+[Fix things](08-chat1/readme.md)
 
 ![result](08-chat1/radar08.PNG)
 
@@ -100,15 +100,14 @@ Im just looking at the working graph and saying..."wow, works! Next!"
 
 Gimme a toggle and bar chart
 
-[Bar](09-combo/title.md)
+[Bar](09-combo/readme.md)
 
 ![result](09-combo/radar09a.PNG)
 ![result](09-combo/radar09b.PNG)
 
-
 Transitions are broke again
 
-[Transitions](10-transitions/transitions-bar.md)
+[Transitions](10-transitions/readme.md)
 
 ![result](10-transitions/radar10.png)
 
@@ -116,19 +115,16 @@ Transitions are broke again
 
 Add some labels and final polish.  But...this is kinda a hot mess.  I should have stuck to one graph
 
-[Final fixes](11-jump/jump.md)
+[Final fixes](11-jump/readme.md)
 
 ![result](11-jump/radar11.png)
 
-
 Transitions are broke again
 
-[Fix Palette](12-palette/palette.md)
+[Fix Palette](12-palette/readme.md)
 
 ![result](12-palette/range12a.png)
 ![result](12-palette/range12b.png)
-
-
 
 and thats a wrap.
 

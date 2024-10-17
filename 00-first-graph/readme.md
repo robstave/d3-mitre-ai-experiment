@@ -14,7 +14,7 @@ create a dataset that has moderate values over like 40% of the tactics
 
 https://jsfiddle.net/624ocLhy/1/
 
-![result](radar01.PNG)
+![result](radar00.PNG)
 
 Certainly, I can help you modify the code to use integers instead of the 0-1 range, add labels to the divisions, and adjust the animation behavior. Let's make these changes step by step.
 

@@ -1,25 +1,16 @@
 # Fix Palette
 
-
 Im calling it.  But first the colors need a tweak
 
-
-Code: https://jsfiddle.net/624ocLhy/12/
-
+Code: <https://jsfiddle.net/624ocLhy/12/>
 
 ### Prompt
 
- 
-
-
 ## Result
- 
 
- ![Result](radar12a.PNG)
+ ![Result](radar12a.png)
 
-
- ![Result](radar12b.PNG)
-
+ ![Result](radar12b.png)
 
 Great! Let's enhance your bar chart by implementing a more nuanced color scale with a cooler palette. We'll use D3's perceptually uniform color schemes, such as `interpolateViridis`, `interpolatePlasma`, or `interpolateCool`, which provide smooth gradients and are aesthetically pleasing.
 
@@ -28,7 +19,7 @@ Additionally, we'll add a color legend to help interpret the color scale and ens
 Here's how you can achieve this:
 
 ### Updated JavaScript Code
- 
+
  < see code >
 
 ### Updated CSS
@@ -41,25 +32,25 @@ To accommodate the legend and ensure proper spacing, you might need to adjust yo
 1. **Cooler and More Nuanced Color Scale:**
     - **Color Interpolator:** Switched from a linear orange/red scale to `d3.interpolateViridis`, which provides a perceptually uniform and aesthetically pleasing color palette ranging from blue to green.
     - **Sequential Scale:** Changed the `colorScale` to a sequential scale using `d3.scaleSequential` with the chosen interpolator.
-    
+
     ```javascript
     // Define colorScale dynamically based on current data range using Viridis
     colorScale = d3.scaleSequential()
         .domain([minValue, maxValueInData])
         .interpolator(d3.interpolateViridis);
     ```
-    
+
     **Alternative Interpolators:**
     - `d3.interpolatePlasma`
     - `d3.interpolateCividis`
     - `d3.interpolateCool`
-    
+
     Feel free to experiment with these to find the palette that best fits your needs.
 
 2. **Increased Left Margin for Bar Chart:**
     - **Purpose:** Prevent y-axis labels from being cut off by increasing the left margin.
     - **Change:** Updated the `margins` object and set `left: 200` to provide ample space for longer labels.
-    
+
     ```javascript
     const margins = { top: 50, right: 50, bottom: 50, left: 200 };
     ```
@@ -67,7 +58,7 @@ To accommodate the legend and ensure proper spacing, you might need to adjust yo
 3. **Color Legend:**
     - **Purpose:** Helps users understand the mapping between color intensity and values.
     - **Implementation:** Added a `addColorLegend` function that creates a gradient legend below the bar chart.
-    
+
     ```javascript
     // Function to add a color legend
     function addColorLegend(colorScale, xScale, maxValue) {
@@ -144,7 +135,7 @@ To accommodate the legend and ensure proper spacing, you might need to adjust yo
 
 1. **Experiment with Different Color Schemes:**
     - D3 offers a variety of color interpolators. Feel free to try different ones to see which best fits your visualization needs.
-    
+
     ```javascript
     // Example with Plasma
     colorScale = d3.scaleSequential()

@@ -2,8 +2,8 @@
 
 Again..Im losing functionality.
 T
- 
-code: https://jsfiddle.net/624ocLhy/10/
+
+code: <https://jsfiddle.net/624ocLhy/10/>
 
 ## Prompt
 
@@ -11,15 +11,11 @@ code: https://jsfiddle.net/624ocLhy/10/
 
 I seem to have lost the transitions on the radar chart when I chose time frame
 
-
- 
 ## Result
-
 
 ![Result](radar10.png)
 
 Thought for 38 seconds
-
 
 The issue you're experiencing with the missing transitions on the radar chart is due to the way the chart is being updated when you change the timeframe. In your current `drawRadarChart` function, you're removing all the existing elements and redrawing them from scratch each time you update the chart:
 
@@ -358,5 +354,3 @@ function drawRadarChart(data, maxValue) {
 By making these adjustments, your radar chart will smoothly transition between different timeframes, just like your bar chart does.
 
 Feel free to integrate this modified function into your code, and you should see the transitions restored on your radar chart when switching timeframes.
-
- 
