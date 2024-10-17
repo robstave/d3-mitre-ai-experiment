@@ -1,20 +1,20 @@
 # Fix the graph
 
-At this point, I ran outta Claude prompts.  :(
+At this point, I ran outta free AI points.  :(
 
 Well..it said it was too big.  Maybe I blew the context window.
-so I started as new conversation.  Which let me do ONE more until 4am.
+I started as new conversation.  Which gave me one more prompt to use for the day.
 
 https://jsfiddle.net/624ocLhy/7/
 
-
+## Prompt
 can you make this not do 0->1 but integers.
 I would say for 24 hours the max is 3 and for a month its like 80 or 90.
 
 Also, some labels on the divisions
 and when I toggle between datasets, make the graph normalize, but the animation is on the divisions.  Like its growing
 
-# Result
+## Result
 
 ![Result](radar07.PNG)
 

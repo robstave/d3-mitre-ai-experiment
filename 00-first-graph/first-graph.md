@@ -1,4 +1,6 @@
-#  Question 1 - Claude  ( Sonnet 3.5)
+# Question 1 - Claude 3.5 ( Sonnet )
+
+## Prompt
 
 here are the tactics for Mitre
 
@@ -8,18 +10,13 @@ create the code to display this as a radar grph in d3
 
 create a dataset that has moderate values over like 40% of the tactics
 
-
 # result
 
 https://jsfiddle.net/624ocLhy/1/
 
-
 ![result](radar01.PNG)
 
 Certainly, I can help you modify the code to use integers instead of the 0-1 range, add labels to the divisions, and adjust the animation behavior. Let's make these changes step by step.
-
-
- 
 
 I've made the following changes to address your requests:
 

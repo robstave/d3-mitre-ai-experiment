@@ -1,7 +1,10 @@
-# Fix labels and tooltips
+# Fix labels and tooltips - Claude 3.5 ( Sonnet )
 
  
-https://jsfiddle.net/624ocLhy/3/
+Code https://jsfiddle.net/624ocLhy/3/
+
+
+## Prompt 
 
 lets change the data a bit
 
@@ -11,7 +14,9 @@ lets make "Tactic" be just the TAxxxx part and Lable be the name.  For example: 
 
 the graph will just show the lable, but a tooltip will show the value and the tactic.  If you want to add a comment, or hint too that only shows in the tool tip thats fun
  
-# Result
+## Result
+
+![Result](radar03.PNG)
 
 Certainly! I'll modify the data structure and update the chart to include tooltips with the additional information. This will make the chart cleaner while still providing detailed information on hover.
 

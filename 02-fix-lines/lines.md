@@ -1,13 +1,19 @@
-# Fix the Lines
+# Fix the Lines - Claude 3.5 ( Sonnet )
 
 
-https://jsfiddle.net/624ocLhy/2/
+code: https://jsfiddle.net/624ocLhy/2/
 
-
+## Prompt
 
 The line between values is thicker and red.  That looks good but stops at 12, can you make it connect to the first value again so it looks finished
 
-# Result
+
+
+## Result
+
+
+![Result](radar02.PNG)
+
 
 Certainly! I'll modify the code to make the line connect back to the first value, creating a closed shape. This will indeed make the chart look more finished and complete.
 
