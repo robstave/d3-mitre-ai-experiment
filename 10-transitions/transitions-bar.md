@@ -15,6 +15,9 @@ I seem to have lost the transitions on the radar chart when I chose time frame
  
 ## Result
 
+
+![Result](radar10.png)
+
 Thought for 38 seconds
 
 

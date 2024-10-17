@@ -118,7 +118,7 @@ Add some labels and final polish.  But...this is kinda a hot mess.  I should hav
 
 [Final fixes](11-jump/jump.md)
 
-![result](11-jump/radar11.PNG)
+![result](11-jump/radar11.png)
 
 
 Transitions are broke again
