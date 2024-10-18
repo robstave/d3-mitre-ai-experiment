@@ -59,7 +59,7 @@ Manual asks for improvements
 
 Lets make better divider lines
 
-[Divider lines](04-divlines-polish/polish.md)
+[Divider lines](04-divlines-polish/readme.md)
 
 ![result](04-divlines-polish/radar04.PNG)
 
@@ -129,8 +129,8 @@ Transitions are broke again
 
 [Fix Palette](12-palette/readme.md)
 
-![result](12-palette/range12a.png)
-![result](12-palette/range12b.png)
+![result](12-palette/radar12a.png)
+![result](12-palette/radar12b.png)
 
 and thats a wrap.
 

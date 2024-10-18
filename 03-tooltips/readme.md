@@ -4,7 +4,21 @@
 
 lets change the data a bit
 
-const data = [ { tactic: "TA0001: Initial Access", value: 0.6 }, { tactic: "TA0002: Execution", value: 0.4 }, { tactic: "TA0003: Persistence", value: 0.7 }, { tactic: "TA0004: Privilege Escalation", value: 0.3 }, { tactic: "TA0005: Defense Evasion", value: 0.5 }, { tactic: "TA0006: Credential Access", value: 0.2 }, { tactic: "TA0007: Discovery", value: 0.6 }, { tactic: "TA0008: Lateral Movement", value: 0.1 }, { tactic: "TA0009: Collection", value: 0.4 }, { tactic: "TA0010: Exfiltration", value: 0.3 }, { tactic: "TA0011: Command and Control", value: 0.5 }, { tactic: "TA0040: Impact", value: 0.2 } ];
+```json
+const data = [ 
+   { tactic: "TA0001: Initial Access", value: 0.6 }, 
+   { tactic: "TA0002: Execution", value: 0.4 }, 
+   { tactic: "TA0003: Persistence", value: 0.7 }, 
+   { tactic: "TA0004: Privilege Escalation", value: 0.3 }, 
+   { tactic: "TA0005: Defense Evasion", value: 0.5 }, 
+   { tactic: "TA0006: Credential Access", value: 0.2 }, 
+   { tactic: "TA0007: Discovery", value: 0.6 }, 
+   { tactic: "TA0008: Lateral Movement", value: 0.1 }, 
+   { tactic: "TA0009: Collection", value: 0.4 }, 
+   { tactic: "TA0010: Exfiltration", value: 0.3 }, 
+   { tactic: "TA0011: Command and Control", value: 0.5 }, 
+   { tactic: "TA0040: Impact", value: 0.2 } ];
+```
 
 lets make "Tactic" be just the TAxxxx part and Lable be the name.  For example:  "Tactic":"TA0008", "label": "Lateral Movement"
 
