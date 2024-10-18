@@ -2,17 +2,23 @@
 
 ## Overview
 
-An experiment to see how well Chat models do with creating D3 visualizations.
+An experiment to see how well the current LLM models do with creating D3 visualizations.
+Note, this is 10/2024.  In a year it will already be outdated!
+
 
 The goal is to attempt to write as LITTLE code as possible. If something needs fixing, work it in the prompt.
 
-Im using a combination of Claude, and ChatGPT O1-mini/o-preview.
+Im using a combination of Claude (3.5), and ChatGPT O1-mini/o-preview.  Im paying for GPT, but figured I would run out my allotment of Sonnet prompts first just to see how well that goes.
+
+I will be needing some Widgets in a bit and we have crafted our own before.  I think the requirements call for just a pie chart.  I think we can do better. I have never tried a radar chart, which is NOT where we need to be going...but hey, its an experiment right?
+
+## Preliminary work
 
 At first I thought I would consult with o1-preview for an outline.
 
 [Initial request overview](00-01-initial-request.md)
 
-Ok...wow...5 weeks. Im hoping 2 hours or so.
+Ok...wow...5 weeks!  5 Weeks cant be right. Im hoping 2 hours or so.
 
 Lets ask for a preview
 
@@ -21,7 +27,7 @@ Lets ask for a preview
 ![preview](assets/dalle1.PNG)
 
 Oh dear.
-Well...lets plod on. I think I will start fresh with a small set of requirements.
+That is not what I expect from D3 at all. I think I will start fresh with a small set of requirements.
 
 ## First Prompts
 

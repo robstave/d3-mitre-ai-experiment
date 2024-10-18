@@ -1,6 +1,5 @@
 # Datasets - Claude 3.5 ( Sonnet )
 
-code: https://jsfiddle.net/624ocLhy/6/
 
 ## Prompt
 
@@ -20,7 +19,12 @@ animation for transitions should be nice too
 
 ## Result
 
+code: https://jsfiddle.net/624ocLhy/6/
+
+
 ![Result](radar06.PNG)
+
+## Reply
 
 Certainly! I'll create three datasets representing 24 hours, 1 week, and 1 month of cumulative tactic detections, with some tactics having no detections throughout. I'll also add animation for transitions between datasets. Let's implement these changes:
 

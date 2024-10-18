@@ -1,10 +1,6 @@
 # Fix labels and tooltips - Claude 3.5 ( Sonnet )
 
- 
-Code https://jsfiddle.net/624ocLhy/3/
-
-
-## Prompt 
+## Prompt
 
 lets change the data a bit
 
@@ -13,19 +9,21 @@ const data = [ { tactic: "TA0001: Initial Access", value: 0.6 }, { tactic: "TA00
 lets make "Tactic" be just the TAxxxx part and Lable be the name.  For example:  "Tactic":"TA0008", "label": "Lateral Movement"
 
 the graph will just show the lable, but a tooltip will show the value and the tactic.  If you want to add a comment, or hint too that only shows in the tool tip thats fun
- 
+
 ## Result
+
+Code <https://jsfiddle.net/624ocLhy/3/>
 
 ![Result](radar03.PNG)
 
 Certainly! I'll modify the data structure and update the chart to include tooltips with the additional information. This will make the chart cleaner while still providing detailed information on hover.
 
-
- 
+## Reply
 
 I've made several changes to implement your requests:
 
 1. Updated the data structure:
+
    ```javascript
    const data = [
        { tactic: "TA0001", label: "Initial Access", value: 0.6, hint: "The point of entry for an attack" },
@@ -34,6 +32,7 @@ I've made several changes to implement your requests:
    ```
 
 2. Modified the label display to show only the name:
+
    ```javascript
    .text(d => d.label)
    ```
@@ -52,6 +51,7 @@ I've made several changes to implement your requests:
 Here's a breakdown of the main changes:
 
 1. Data structure update:
+
    ```javascript
    const data = [
        { tactic: "TA0001", label: "Initial Access", value: 0.6, hint: "The point of entry for an attack" },
@@ -60,6 +60,7 @@ Here's a breakdown of the main changes:
    ```
 
 2. Tooltip CSS:
+
    ```css
    .tooltip {
        position: absolute;
@@ -73,6 +74,7 @@ Here's a breakdown of the main changes:
    ```
 
 3. Tooltip functionality:
+
    ```javascript
    .on("mouseover", function(event, d) {
        tooltip.transition()

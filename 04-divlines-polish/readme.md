@@ -1,23 +1,20 @@
 # Make nicer and add polish - Claude 3.5 ( Sonnet )
 
 So we have this
-https://jsfiddle.net/624ocLhy/4/
-
-
 
 lets tighten the radius scale a bit on those labels
- also the division trace lines in the radar are a bit heavy. 
+ also the division trace lines in the radar are a bit heavy.
 make the theme a bit more slick.
 
 # Result
 
+<https://jsfiddle.net/624ocLhy/4/>
 
 ![result](radar04.PNG)
 
+## Reply
+
 Certainly, I'll modify the code to make the labels horizontal. This will improve readability significantly.
-
-
-
 
 I've made several changes to improve the chart and make the labels horizontal:
 
@@ -30,22 +27,26 @@ I've made several changes to improve the chart and make the labels horizontal:
 Here's a breakdown of the main changes:
 
 1. In the radius calculation:
+
    ```javascript
    const radius = Math.min(width, height) / 2 - 100;  // Reduced radius to make room for labels
    ```
 
 2. In the label positioning:
+
    ```javascript
    .attr("x", (d, i) => radiusScale(1.3) * Math.cos(angleScale(i) - Math.PI / 2))
    .attr("y", (d, i) => radiusScale(1.3) * Math.sin(angleScale(i) - Math.PI / 2))
    ```
 
 3. Removed the label rotation:
+
    ```javascript
    // Removed the transform attribute that was rotating the labels
    ```
 
 4. Added axes:
+
    ```javascript
    svg.selectAll(".axis")
        .data(data)
@@ -54,6 +55,7 @@ Here's a breakdown of the main changes:
    ```
 
 5. Added dots at data points:
+
    ```javascript
    svg.selectAll(".dot")
        .data(data)

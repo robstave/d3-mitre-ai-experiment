@@ -4,7 +4,7 @@ Moved to ChatGPT o1-preview.  Im paying for this...so why not.
 Preview might have been overkill
 
 
-code: https://jsfiddle.net/624ocLhy/8/
+
 
 
 ## Prompt
@@ -21,7 +21,12 @@ also, scale the colors to the range.  In this case...all values in 24 were relat
 
 ## Result
 
+code: https://jsfiddle.net/624ocLhy/8/
+
 ![Result](radar08.PNG)
+
+
+## Reply
 
  Certainly! I've made the requested changes to your code:
 

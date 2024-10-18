@@ -1,15 +1,16 @@
 # Make Better - Claude 3.5 ( Sonnet )
 
-
-Code: https://jsfiddle.net/624ocLhy/5/
-
 ## Prompt
 
 so what you do to make this better
 
 ## Result
 
+Code: <https://jsfiddle.net/624ocLhy/5/>
+
 ![Result](radar05.PNG)
+
+## Reply
 
 To further improve this chart, we could consider several enhancements:
 

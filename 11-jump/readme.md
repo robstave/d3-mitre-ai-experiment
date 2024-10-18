@@ -4,7 +4,7 @@ Ok...so at this point the graph is getting a bit less useful. Truely we have jum
 
 I would say where we left off at 08 was perfect. But lets fix up this a little more and call it
 
-Code: https://jsfiddle.net/624ocLhy/11/
+
 
 ## Prompt
 
@@ -17,7 +17,11 @@ surprise me with other things if you can easily do them
 
 ## Result
 
+Code: https://jsfiddle.net/624ocLhy/11/
+
 ![Result](radar11.png)
+
+## Reply
 
 I'm glad to hear your radar and bar charts are looking good! Let's address the issues you've mentioned with the bar chart and enhance it further. Here's a step-by-step guide to make the necessary adjustments:
 

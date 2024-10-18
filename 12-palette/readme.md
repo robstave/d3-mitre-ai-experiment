@@ -2,15 +2,20 @@
 
 Im calling it.  But first the colors need a tweak
 
-Code: <https://jsfiddle.net/624ocLhy/12/>
 
-### Prompt
+
+## Prompt
 
 ## Result
 
  ![Result](radar12a.png)
 
  ![Result](radar12b.png)
+ 
+Code: <https://jsfiddle.net/624ocLhy/12/>
+
+ ## Reply
+
 
 Great! Let's enhance your bar chart by implementing a more nuanced color scale with a cooler palette. We'll use D3's perceptually uniform color schemes, such as `interpolateViridis`, `interpolatePlasma`, or `interpolateCool`, which provide smooth gradients and are aesthetically pleasing.
 

@@ -1,9 +1,6 @@
 # Transitions  o1-Mini
 
 Again..Im losing functionality.
-T
-
-code: <https://jsfiddle.net/624ocLhy/10/>
 
 ## Prompt
 
@@ -12,6 +9,8 @@ code: <https://jsfiddle.net/624ocLhy/10/>
 I seem to have lost the transitions on the radar chart when I chose time frame
 
 ## Result
+
+code: <https://jsfiddle.net/624ocLhy/10/>
 
 ![Result](radar10.png)
 

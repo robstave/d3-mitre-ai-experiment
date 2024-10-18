@@ -1,24 +1,18 @@
 # Fix the Lines - Claude 3.5 ( Sonnet )
 
-
-code: https://jsfiddle.net/624ocLhy/2/
-
 ## Prompt
 
 The line between values is thicker and red.  That looks good but stops at 12, can you make it connect to the first value again so it looks finished
 
-
-
 ## Result
 
+code: <https://jsfiddle.net/624ocLhy/2/>
 
 ![Result](radar02.PNG)
 
-
 Certainly! I'll modify the code to make the line connect back to the first value, creating a closed shape. This will indeed make the chart look more finished and complete.
 
-
- 
+## Reply
 
 I've made a key change to close the shape of the radar chart:
 
@@ -36,6 +30,7 @@ The `curveLinearClosed` curve type in D3.js automatically closes the shape by co
 With this change, the red line will now form a closed shape, connecting the last data point (TA0040: Impact) back to the first one (TA0001: Initial Access). This gives the chart a more finished and polished look.
 
 All other aspects of the chart remain the same, including:
+
 - The horizontal labels
 - The axes from the center to each data point
 - The dots at each data point

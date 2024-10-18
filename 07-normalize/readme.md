@@ -5,7 +5,7 @@ At this point, I ran outta free AI points.  :(
 Well..it said it was too big.  Maybe I blew the context window.
 I started as new conversation.  Which gave me one more prompt to use for the day.
 
-code: https://jsfiddle.net/624ocLhy/7/
+
 
 ## Prompt
 
@@ -17,7 +17,11 @@ and when I toggle between datasets, make the graph normalize, but the animation 
 
 ## Result
 
+code: https://jsfiddle.net/624ocLhy/7/
+
 ![Result](radar07.PNG)
+
+## Reply
 
  Certainly, I can help you modify the code to use integers instead of the 0-1 range, add labels to the divisions, and adjust the animation behavior. Let's make these changes step by step.
 
