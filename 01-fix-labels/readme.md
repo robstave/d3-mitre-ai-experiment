@@ -1,14 +1,18 @@
 # Fix the graph - Claude 3.5 ( Sonnet )
 
-Code: https://jsfiddle.net/624ocLhy/1/
+## Prompt
 
-# Prompt
+can you fix the labels so they are horizontal?
 
-can you fix the lables so they are horizontal?
+## Result
 
-# Result
+it fixed em.  Kinda spread out, but fixed
+
+Code: <https://jsfiddle.net/624ocLhy/1/>
 
 ![Result](radar01.PNG)
+
+## Reply
 
 Certainly, I'll modify the code to make the labels horizontal. This will improve readability significantly.
 
@@ -49,6 +53,7 @@ Here's a breakdown of the main changes:
    ```
 
 5. Added dots at data points:
+
    ```javascript
    svg.selectAll(".dot").data(data).join("circle");
    // ... (dot attributes)

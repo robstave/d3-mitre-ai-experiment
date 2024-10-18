@@ -2,19 +2,33 @@
 
 ## Prompt
 
-here are the tactics for Mitre
+Here are the 12 tactics in the MITRE ATT&CK framework along with their corresponding codes:
 
-Here are the 12 tactics in the MITRE ATT&CK framework along with their corresponding codes: TA0001: Initial Access TA0002: Execution TA0003: Persistence TA0004: Privilege Escalation TA0005: Defense Evasion TA0006: Credential Access TA0007: Discovery TA0008: Lateral Movement TA0009: Collection TA0010: Exfiltration TA0011: Command
+- TA0001: Initial Access
+- TA0002: Execution
+- TA0003: Persistence
+- TA0004: Privilege Escalation
+- TA0005: Defense Evasion
+- TA0006: Credential Access
+- TA0007: Discovery
+- TA0008: Lateral Movement
+- TA0009: Collection
+- TA0010: Exfiltration
+- TA0011: Command
 
 create the code to display this as a radar grph in d3
 
 create a dataset that has moderate values over like 40% of the tactics
 
-# result
+## result
 
-https://jsfiddle.net/624ocLhy/1/
+Surprisingly, this worked the first time. Ok, it looks strange.  The labels are all wonky and the radar line drops off a cliff.
+
+<https://jsfiddle.net/624ocLhy/1/>
 
 ![result](radar00.PNG)
+
+## reply
 
 Certainly, I can help you modify the code to use integers instead of the 0-1 range, add labels to the divisions, and adjust the animation behavior. Let's make these changes step by step.
 
